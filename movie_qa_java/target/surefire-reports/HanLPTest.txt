@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: HanLPTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.536 s <<< FAILURE! - in HanLPTest
+TestC(HanLPTest)  Time elapsed: 0.06 s  <<< ERROR!
+java.lang.IllegalArgumentException: System memory 259522560 must be at least 471859200. Please increase heap size using the --driver-memory option or spark.driver.memory in Spark configuration.
+	at HanLPTest.TestC(HanLPTest.java:53)
+

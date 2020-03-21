@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: BayesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.668 s <<< FAILURE! - in BayesTest
+TestA(BayesTest)  Time elapsed: 4.624 s  <<< ERROR!
+java.lang.IllegalArgumentException: System memory 259522560 must be at least 471859200. Please increase heap size using the --driver-memory option or spark.driver.memory in Spark configuration.
+	at BayesTest.TestA(BayesTest.java:23)
+
